@@ -24,6 +24,10 @@ class DatasetCatalog(object):
             "img_dir": "/home/bot/Downloads/Rebin/labelled/data",
             "ann_file": "/home/bot/Downloads/Rebin/labelled/coco_rebin.json"
         },
+        "car_dataset": {
+            "img_dir": "/home/student/car_dataset/img",
+            "ann_file": 'home/student/car_dataset/annots/coco_annot.json'
+        }
         # CUSTOM STUFF END
 
         "coco_2017_train": {

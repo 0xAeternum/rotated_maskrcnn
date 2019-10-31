@@ -47,7 +47,7 @@ MODEL:
   ROI_MASKIOU_HEAD:
     USE_NMS: True
 DATASETS:
-  TRAIN: ("coco_2014_train", "coco_2014_valminusminival")
+  TRAIN: ("car_dataset", "coco_2014_valminusminival")
   TEST: ("coco_2014_minival",)
 DATALOADER:
   SIZE_DIVISIBILITY: 32
