@@ -28,8 +28,6 @@ class DatasetCatalog(object):
             "img_dir": "/home/student/car_dataset/img",
             "ann_file": 'home/student/car_dataset/annots/coco_annot.json'
         },
-        # CUSTOM STUFF END
-
         "coco_2017_train": {
             "img_dir": "coco/train2017",
             "ann_file": "coco/annotations/instances_train2017.json"
